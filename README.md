@@ -80,7 +80,7 @@ FROM cohort_correlation;
 * **Finding:** Retention stabilizes after the second month for users who engage early, suggesting that the first 30 days are the highest-leverage period for user intervention.
 
 <p align="center">
-  <img src="images/retention_heatmap.png" alt="Retention Heatmap" width="750">
+  <img src="images/Monthly User Retention Cohorts.png" alt="Retention Heatmap" width="750">
 </p>
 
 
@@ -90,7 +90,7 @@ FROM cohort_correlation;
 > **Scientific Insight:** Using **SciPy**, I calculated a **Pearson Correlation of 0.7459** between `has_completed_profile` and `lifespan_days`. With a **P-Value of 1.28e-107**, we have mathematically proven that **Profile Completion (Feature ID 2)** is not just an event, but the primary predictor of long-term retention.
 
 <p align="center">
-  <img src="images/violin_plot.png" alt="Lifespan Distribution" width="750">
+  <img src="images/Impact of Profile Completion on User Lifespan.png" alt="Lifespan Distribution" width="750">
 </p>
 
 
