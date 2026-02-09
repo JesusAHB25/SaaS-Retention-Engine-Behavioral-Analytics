@@ -83,25 +83,26 @@ FROM cohort_correlation;
   <img src="images/Monthly User Retention Cohorts.png" alt="Retention Heatmap" width="750">
 </p>
 
+---
 
 ### 🎯 The "Aha! Moment" Validation (Technical Hook)
 
 > [!IMPORTANT]
-> **Scientific Insight:** Using **SciPy**, I calculated a **Pearson Correlation of 0.7459** between `has_completed_profile` and `lifespan_days`. With a **P-Value of 1.28e-107**, we have mathematically proven that **Profile Completion (Feature ID 2)** is not just an event, but the primary predictor of long-term retention.
+> **Scientific Insight:** Using **SciPy**, I calculated a **Pearson Correlation of 0.7459** between `has_completed_profile` and `lifespan_days`. With a **P-Value of 1.28e-107**, we have mathematically proven that **Profile Completion (Feature ID 2)** is the primary predictor of long-term retention.
+
+* **Distribution Density:** The **Violin Plot** analysis reveals that users in the **"Completed Profile"** group show a significantly higher density of active days (40-120 range) compared to the **"Incomplete Profile"** group, which typically churns within the first 10 days of the lifecycle.
 
 <p align="center">
   <img src="images/Impact of Profile Completion on User Lifespan.png" alt="Lifespan Distribution" width="750">
 </p>
 
-
-### 🎻 Distribution Density
-The **Violin Plot** analysis reveals that users in the **"Completed Profile"** group show a significantly higher density of active days (40-120 range) compared to the **"Incomplete Profile"** group, which typically churns within the first 10 days of the lifecycle.
+### 📊 Acquisition Channel Performance
 
 > [!TIP]
-> **Quick Insight:**
-### 📈 Acquisition Channel Performance
+> **Quick Insight:** The **Organic** channel exhibits a more robust Interquartile Range (IQR), suggesting that users who find the platform naturally tend to explore it longer before the first churn cliff compared to Paid Ads.
+
 * **Finding:** While "Organic" users show a slightly higher median engagement, all channels suffer from a heavy "Long-Tail" churn.
-* **Strategic Insight:** The **Organic** channel exhibits a more robust Interquartile Range (IQR), suggesting that users who find the platform naturally tend to explore it longer before the first churn cliff compared to Paid Ads.
+* **Strategic Insight:** Paid Ads and Referral channels show a lower median, indicating a potential misalignment between acquisition messaging and product onboarding.
 
 <p align="center">
   <img src="images/User Lifespan Distribution by Acquisition Channel.png" alt="User Lifespan by Channel" width="700">
