@@ -109,7 +109,7 @@ The **Violin Plot** analysis reveals that users in the **"Completed Profile"** g
 2. **Install dependencies**:  
    `pip install -r requirements.txt`
 3. **Configure your local PostgreSQL URL** in the notebook.
-4. **Open SaaS Retention Engine & Behavioural Analysis.ipynb** and run the cells to replicate the pipeline.
+4. **Open SaaS Retention Engine & Behavioral Analysis.ipynb** and run the cells to replicate the pipeline.
 
 ## 📂 Repository Structure
 ```text
