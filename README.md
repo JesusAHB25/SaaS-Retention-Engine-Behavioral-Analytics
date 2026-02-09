@@ -54,8 +54,7 @@ user_activities AS (
     -- Step 2: Calculate the "Age Month" (distance from signup to event)
     SELECT e.user_id, c.cohort_month,
 		(EXTRACT(YEAR FROM e.timestamp) - EXTRACT(YEAR FROM c.cohort_month)) * 12 + 
-        (EXTRACT(MONTH FROM e.timestamp) - EXTRACT(MONTH FROM c.cohort_month)) AS
-        month_number
+        (EXTRACT(MONTH FROM e.timestamp) - EXTRACT(MONTH FROM c.cohort_month)) AS month_number
     FROM events e
     JOIN cohort_items c ON e.user_id = c.user_id
 ),
