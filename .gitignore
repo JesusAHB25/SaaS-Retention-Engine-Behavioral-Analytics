@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Databases & Logs
+*.db
+*.log
+.postgresql/
+
+# OS specific
+.DS_Store
+Thumbs.db
