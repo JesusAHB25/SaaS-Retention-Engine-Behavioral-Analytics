@@ -125,7 +125,7 @@ The **Violin Plot** analysis reveals that users in the **"Completed Profile"** g
 │   └── 📄 visualizations.py            # Phase 2: Statistical plots (Heatmaps & Violin Plots)
 ├── notebooks/
 │   ├── 📓 data_preprocessing.ipynb     # Phase 0: Synthetic simulation and SQL migration
-│   └── 📓 SaaS Retention Engine.ipynb  # Full implementation (Engineering + EDA)
+│   └── 📓 SaaS Retention Engine & Behavioral Analysis.ipynb  # Full implementation (Engineering + EDA)
 ├── images/
 │   └── 🖼️ ERD diagrams, Retention Heatmaps, and Violin plots
 └── 📄 requirements.txt                 # Project dependencies (Pandas, SciPy, SQLAlchemy)
