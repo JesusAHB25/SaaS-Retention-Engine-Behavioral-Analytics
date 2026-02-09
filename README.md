@@ -117,7 +117,7 @@ The **Violin Plot** analysis reveals that users in the **"Completed Profile"** g
 ## 📂 Repository Structure
 ```text
 ├── data/
-│   └── 📄 Raw CSV files                         # Exported datasets (users, features, events.)
+│   └── 📄 Raw CSV files                # Exported datasets (users, features, events.)
 ├── sql_queries/
 │   └── 📄 database_logic.sql           # Phase 1: Cohort Retention Engine (SQL CTEs)
 ├── src/
