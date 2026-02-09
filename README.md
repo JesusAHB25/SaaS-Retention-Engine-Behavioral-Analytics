@@ -97,7 +97,16 @@ FROM cohort_correlation;
 ### 🎻 Distribution Density
 The **Violin Plot** analysis reveals that users in the **"Completed Profile"** group show a significantly higher density of active days (40-120 range) compared to the **"Incomplete Profile"** group, which typically churns within the first 10 days of the lifecycle.
 
----
+> [!TIP]
+> **Quick Insight:**
+### 📈 Acquisition Channel Performance
+* **Finding:** While "Organic" users show a slightly higher median engagement, all channels suffer from a heavy "Long-Tail" churn.
+* **Strategic Insight:** The **Organic** channel exhibits a more robust Interquartile Range (IQR), suggesting that users who find the platform naturally tend to explore it longer before the first churn cliff compared to Paid Ads.
+
+<p align="center">
+  <img src="images/User Lifespan Distribution by Acquisition Channel.png" alt="User Lifespan by Channel" width="700">
+</p>
+
 
 ## 🛠️ Tech Stack & Requirements
 * **Core:** Python 3.13, SQL (PostgreSQL logic).
@@ -115,7 +124,7 @@ The **Violin Plot** analysis reveals that users in the **"Completed Profile"** g
 ## 📂 Repository Structure
 ```text
 ├── data/
-│   └── 📄 Raw CSV files                # Exported datasets (users, features, events.)
+│   └── 📄 Raw CSV files                # Exported datasets (users, features, events)
 ├── sql_queries/
 │   └── 📄 database_logic.sql           # Phase 1: Cohort Retention Engine (SQL CTEs)
 ├── src/
