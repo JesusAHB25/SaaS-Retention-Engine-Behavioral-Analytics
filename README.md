@@ -85,6 +85,7 @@ FROM cohort_correlation;
   <img src="images/retention_heatmap.png" alt="Retention Heatmap" width="750">
 </p>
 
+
 ### 🎯 The "Aha! Moment" Validation (Technical Hook)
 
 > [!IMPORTANT]
@@ -93,6 +94,7 @@ FROM cohort_correlation;
 <p align="center">
   <img src="images/violin_plot.png" alt="Lifespan Distribution" width="750">
 </p>
+
 
 ### 🎻 Distribution Density
 The **Violin Plot** analysis reveals that users in the **"Completed Profile"** group show a significantly higher density of active days (40-120 range) compared to the **"Incomplete Profile"** group, which typically churns within the first 10 days of the lifecycle.
